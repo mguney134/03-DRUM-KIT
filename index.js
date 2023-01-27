@@ -1,34 +1,34 @@
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
-    let sound = null;
+    
     switch(keyName) {
         case 'w':
-            sound = new Audio("./sounds/tom-1.mp3");
-            sound.play();
+            sound1 = new Audio("./sounds/tom-1.mp3");
+            sound1.play();
             break;
         case 'a':
-            sound = new Audio("./sounds/tom-2.mp3");
-            sound.play();
+            sound2 = new Audio("./sounds/tom-2.mp3");
+            sound2.play();
             break;
         case 's':
-            sound = new Audio("./sounds/tom-3.mp3");
-            sound.play();
+            sound3 = new Audio("./sounds/tom-3.mp3");
+            sound3.play();
             break;
         case 'd':
-            sound = new Audio("./sounds/tom-4.mp3");
-            sound.play();
+            sound4 = new Audio("./sounds/tom-4.mp3");
+            sound4.play();
             break;
         case 'j':
-            sound = new Audio("./sounds/crash.mp3");
-            sound.play();
+            sound5 = new Audio("./sounds/crash.mp3");
+            sound5.play();
             break;
         case 'k':
-            sound = new Audio("./sounds/kick-bass.mp3");
-            sound.play();
+            sound6 = new Audio("./sounds/kick-bass.mp3");
+            sound6.play();
             break;
         case 'l':
-            sound = new Audio("./sounds/snare.mp3");
-            sound.play();
+            sound7 = new Audio("./sounds/snare.mp3");
+            sound7.play();
             break;
     }
 }, false);
